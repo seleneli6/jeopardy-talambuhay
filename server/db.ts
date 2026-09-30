@@ -6,26 +6,27 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'Where was Selene born?',
+        answer: 'The Bronx',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What is Selenes Zodiac Sign?',
+        answer: 'Gemini',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What is Selenes Favorite Season?',
+            imgSrc: '/autumn.jpg',
+        answer: 'Autumm',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What pets does Selene have?',
+        imgSrc:"/guineapig.jpg",
+        answer: 'Guinea pigs',
     }
 ]);
 
@@ -34,55 +35,60 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+                'What treat has Selene baked the most?',
+            imgSrc: '/macarons.jpg',
+            answer: 'Macarons',
         },
         {
             points: 100,
             question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+                'What is Selenes favorite aspect of science?',
+            imgSrc: '/astro.jpeg',
+            answer: 'Astrophysics',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
+            question: 'What programming language does Selene know?',
             imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            answer: 'Java',
         },
         {
             points: 300,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+                'What is Selene`s favorite math topic?',
             imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+                "/math.webp",
+            answer: 'Probability',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'What sport is Selene starting in the winter?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
-    }
+            "/skiing.jpg",
+        answer: 'Ski racing',
+    },
+    {
+            points: 200,
+            question: 'What does Selene hope to do as a job?',
+            answer: 'Astronomer',
+        },
 ]);
 
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: "Selene's Random",
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Selene's Activities`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Selene's Future",
         questions: futureQuestions
     }
 ];
