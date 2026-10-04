@@ -160,8 +160,8 @@
 	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
 
 	:root {
-		--theme-color: #060ce9;
-		--point-color: goldenrod;
+		--theme-color: #b01036;
+		--point-color: rgb(103, 48, 116);
 		font-family: 'ITC_ Korinna', sans-serif;
 		background-color:black;
 	}
@@ -197,7 +197,7 @@
 	.game-over {
 		text-align: center;
 		margin: 2rem;
-		color: white;
+		color: rgb(164, 47, 135);
 	}
 	.board {
 		display: grid;
@@ -208,7 +208,7 @@
 
 	.category {
 		background: var(--theme-color);
-		color: white;
+		color: rgb(111, 70, 156);
 		padding: 1rem;
 		text-align: center;
 		justify-self: center;
@@ -233,7 +233,7 @@
 
 	.question-card.answered {
 		background: var(--theme-color);
-		color: #888;
+		color: #351885;
 		cursor: default;
 	}
 
@@ -243,7 +243,7 @@
 
 	.selected {
 		background-color: var(--point-color);
-		color: black;
+		color: rgb(94, 51, 173);
 	}
 
 	.unselected {
