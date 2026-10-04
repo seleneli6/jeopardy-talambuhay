@@ -213,14 +213,14 @@
 		left: 0;
 		width: 100vw;
 		height: 100vh;
-		background: rgba(127, 74, 190, 0.9);
+		background: rgba(183, 136, 230, 0.9);
 		display: grid;
 		place-items: center;
 	}
 
 	.modal-content {
 		background: var(--theme-color);
-		color: rgb(209, 136, 190);
+		color: rgb(67, 4, 88);
 		padding: 2rem;
 		border-radius: 10px;
 		max-width: 800px;
