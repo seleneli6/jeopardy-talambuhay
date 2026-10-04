@@ -12,19 +12,20 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'What is Selenes Zodiac Sign?',
-        answer: 'Gemini',
+            'What treat has Selene baked the most?',
+                imgSrc: '/macarons.jpg',
+        answer: 'Macarons',
     },
     {
         points: 300,
         question:
             'What is Selenes Favorite Season?',
             imgSrc: '/autumn.jpg',
-        answer: 'Autumm',
+        answer: 'Autumn',
     },
     {
         points: 400,
-        question: 'What pets does Selene have?',
+        question: 'What pets did Selene used to have?',
         imgSrc:"/guineapig.jpg",
         answer: 'Guinea pigs',
     }
@@ -33,27 +34,26 @@ const pastQuestions: Question[] = sortQuestions([
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 400,
+            points: 100,
             question:
-                'What treat has Selene baked the most?',
-            imgSrc: '/macarons.jpg',
-            answer: 'Macarons',
+                'What is Selenes Zodiac Sign?',
+            answer: 'Gemini',
         },
         {
-            points: 100,
+            points: 200,
             question:
                 'What is Selenes favorite aspect of science?',
             imgSrc: '/astro.jpeg',
             answer: 'Astrophysics',
         },
         {
-            points: 200,
+            points: 300,
             question: 'What programming language does Selene know?',
             imgSrc: '/programming_language.png',
             answer: 'Java',
         },
         {
-            points: 300,
+            points: 400,
             question:
                 'What is Selene`s favorite math topic?',
             imgSrc:
@@ -75,16 +75,32 @@ const futureQuestions: Question[] = sortQuestions([
             question: 'What does Selene hope to do as a job?',
             answer: 'Astronomer',
         },
+
+    {points: 300,
+        question:
+            'What book is Selene hoping to finish soon?',
+        imgSrc:
+            "/jane.jpg",
+        answer: 'Jane Eyre',
+    },
+    {
+            points: 400,
+            question: 'If Selene could live anywhere, where would it be?',
+        
+            imgSrc:
+            "/alaska.webp",
+            answer: 'Alaska',
+        },
 ]);
 
 
 const categories = [
     {
-        title: "Selene's Random",
+        title: "Selene's Past",
         questions: pastQuestions
     },
     {
-        title: `Selene's Activities`,
+        title: `Selene's Present`,
         questions: presentQuestions
     },
     {
