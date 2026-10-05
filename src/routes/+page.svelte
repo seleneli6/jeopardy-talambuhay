@@ -101,6 +101,7 @@
 				if (e.key === 'Enter' && name.trim()) {
 					socket.emit('join', { name: name.trim(), socketId: socket.id, score: 0 });
 					submitName = true;
+					new Audio('https://www.myinstants.com/media/sounds/applause-4.mp3').play();
 				}
 			}}
 		/>

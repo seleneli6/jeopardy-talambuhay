@@ -70,6 +70,8 @@
 
 	// SOCKET LISTEN EVENTS
 	onMount(() => {
+
+		new Audio('https://www.myinstants.com/media/sounds/clicksoundeffect.mp3').play();
 		const handleBuzzed = (playerName: string) => {
 			whoBuzzed = playerName;
 			if (playerName) {
