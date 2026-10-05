@@ -73,6 +73,7 @@
 		const handleBuzzed = (playerName: string) => {
 			whoBuzzed = playerName;
 			if (playerName) {
+				new Audio('https://www.myinstants.com/media/sounds/ding-sound-effect_2.mp3').play();
 				console.log(`${playerName} buzzed in!`);
 				buzzed = true;
 				if (playerName === name) {
@@ -90,8 +91,9 @@
 		};
 
 		const handleTimeUp = () => {
-			new Audio('https://www.myinstants.com/media/sounds/times-up.mp3').play();
+			new Audio('https://www.myinstants.com/media/sounds/wrong-answer-buzzer.mp3').play();
 		};
+
 
 		socket.on('buzzed', handleBuzzed);
 		socket.on('checkAnswer', handleCheckAnswer);
@@ -134,7 +136,7 @@
 	$effect(() => {
 		// side effects, use this rune sparingly! like playing sounds.
 		if (isCorrect) {
-			new Audio('https://www.myinstants.com/media/sounds/rightanswer.mp3').play();
+			new Audio('https://www.myinstants.com/media/sounds/winners_W9Cpenj.mp3').play();
 		}
 	});
 </script>

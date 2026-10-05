@@ -84,6 +84,10 @@
 <PlayersWidget {players} />
 {#if isNameModal}
 	<div class="name-entry">
+
+		<h1> Selene's Jeopardy</h1>
+
+		<img class="front-image" src="/planet.jpg" />
 		<h2>
 			{#if joinError}Name already taken. Please choose a different name:
 			{:else}Enter your name to join the game:

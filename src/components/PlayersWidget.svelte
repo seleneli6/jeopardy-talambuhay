@@ -29,7 +29,7 @@
 	.players-widget {
 		color: white;
         opacity: 0.8;
-		position: fixed;
+		positin: fixed;
 		right: 1rem;
 		background: var(--theme-color);
         border: white 2px solid;
