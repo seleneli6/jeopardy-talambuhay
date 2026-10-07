@@ -90,7 +90,6 @@
 		const handleCheckAnswer = (buzzGuess: string, socketId: string) => {
 			console.log(`Guess: ${buzzGuess} for question: ${selectedQuestion.question} by ${socketId}`);
 			guess = buzzGuess;
-			new Audio('https://www.myinstants.com/media/sounds/wrong-answer-buzzer.mp3').play();
 		};
 
 		const handleTimeUp = () => {
